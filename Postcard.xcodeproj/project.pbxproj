@@ -13,6 +13,10 @@
 		BC640B3E1AE2FD0D002EBF26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC640B3D1AE2FD0D002EBF26 /* Images.xcassets */; };
 		BC640B411AE2FD0D002EBF26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC640B3F1AE2FD0D002EBF26 /* LaunchScreen.xib */; };
 		BC640B4D1AE2FD0E002EBF26 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640B4C1AE2FD0E002EBF26 /* PostcardTests.swift */; };
+		BC640B581AE304BF002EBF26 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC640B561AE304BF002EBF26 /* Bo.jpg */; };
+		BC640B591AE304BF002EBF26 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC640B561AE304BF002EBF26 /* Bo.jpg */; };
+		BC640B5A1AE304BF002EBF26 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC640B571AE304BF002EBF26 /* JRT.jpg */; };
+		BC640B5B1AE304BF002EBF26 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC640B571AE304BF002EBF26 /* JRT.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 		BC640B461AE2FD0E002EBF26 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC640B4B1AE2FD0E002EBF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC640B4C1AE2FD0E002EBF26 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		BC640B561AE304BF002EBF26 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		BC640B571AE304BF002EBF26 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 		BC640B341AE2FD0B002EBF26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC640B561AE304BF002EBF26 /* Bo.jpg */,
+				BC640B571AE304BF002EBF26 /* JRT.jpg */,
 				BC640B351AE2FD0B002EBF26 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +202,8 @@
 			files = (
 				BC640B3C1AE2FD0D002EBF26 /* Main.storyboard in Resources */,
 				BC640B411AE2FD0D002EBF26 /* LaunchScreen.xib in Resources */,
+				BC640B5A1AE304BF002EBF26 /* JRT.jpg in Resources */,
+				BC640B581AE304BF002EBF26 /* Bo.jpg in Resources */,
 				BC640B3E1AE2FD0D002EBF26 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC640B5B1AE304BF002EBF26 /* JRT.jpg in Resources */,
+				BC640B591AE304BF002EBF26 /* Bo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
